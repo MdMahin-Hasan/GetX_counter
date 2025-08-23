@@ -29,8 +29,9 @@ class homepage extends StatelessWidget {
               ElevatedButton(
                 onPressed: () {
                   c.Clear();// ✅ reset when pressed
-                Get.snackbar("Count is reset", "you are successful",
-                snackPosition: SnackPosition.BOTTOM);
+                Get.snackbar("Count is reset", "You are successful ",
+                snackPosition: SnackPosition.BOTTOM,
+                backgroundColor: Colors.lightBlue);
                 },
                 child: const Text("Reset the Count"), // no need for Obx here
               ),

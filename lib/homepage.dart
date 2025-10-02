@@ -35,6 +35,9 @@ class homepage extends StatelessWidget {
                 },
                 child: const Text("Reset the Count"), // no need for Obx here
               ),
+              ElevatedButton(onPressed: (){
+
+              }, child: Text("Go to Get Storage"))
             ],
           ),
         ),
